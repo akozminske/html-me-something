@@ -1,0 +1,64 @@
+/* 
+   HTML Me Something style sheet 
+   Filename: styles.css
+
+   Author:   Ann Kozminske
+   Date:     09/13/2017
+   Style Sheet for HTML Me Something website
+   
+   Supporting Files:  none
+ */
+ /* reset styles     */
+ html {
+    font-size: 14px;
+ }
+article, aside, body, div, footer, header, h1, h2,  p {
+	border: 0;
+	padding:0;
+    margin: 0;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* body and page container */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    background-color: #93ad78;
+    position: relative;
+ }
+ p {
+    font-size: 1.4em;
+ }
+ /* header section */
+header {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #082008;
+ }
+ h1 {
+    font-size: 2.4em;
+    line-height: 1.6em;
+    font-family: "Krona One", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+ }
+
+ /* footer section */
+footer {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    clear: both;
+    background-color: #082008;
+ }
